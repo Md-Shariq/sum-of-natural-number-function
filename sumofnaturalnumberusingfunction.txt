@@ -1,0 +1,31 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <stdio.h>
+void natural(int, int);
+int main() 
+{    
+int x,y;
+y=1;
+printf("enter a natural number");
+scanf("%d",&x);
+natural(x,y);
+
+}
+
+void natural(int x, int y){
+    int sum=0;
+while (y <= x) {
+    sum=sum+y;
+    y++;
+}
+printf("%d",sum);
+}
+
+
+
